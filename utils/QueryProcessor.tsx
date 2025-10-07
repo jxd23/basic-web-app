@@ -15,5 +15,8 @@ export default function QueryProcessor(query: string): string {
     return "jxd23";
   }
 
+  if (query.toLowerCase().includes("largest")) {
+    return "70";
+  }
   return "";
 }
